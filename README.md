@@ -30,6 +30,8 @@ Annotation tools are located in the right panel. Before you start annotating, fi
 
 Data can be exported as JSON (for each image), a PNG image (with annotations), or as a PDF containing annotated images created during this session.
 
+**GNU/Linux users**: Assuming you have NPM installed, just run `npm run build` then `npm run serve` from the base directory. The tool should be served [here](http://localhost:3000) by default.
+
 **Windows users**: download this whole package and unzip it. Double-click the `START_SERVER.bat` batch file to activate the local web server. (I've included a [miniserve](https://github.com/svenstaro/miniserve) executable for your convenience, but you can use whatever server you want.) Navigate to [the app](http://localhost:8080) and you're good to go.
 
 **Mac users**: download this whole package and unzip it. You can run a web server of your choice, or you can go ahead and use the HTTP server included with Python. I don't have a Mac, so I'm not familiar with what y'all use.
